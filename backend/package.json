@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "private": true,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "@elysiajs/node": "1",
+    "@supabase/ssr": "github:supabase/ssr",
+    "better-sqlite3": "^12.5.0",
+    "cookie": "^1.1.1",
+    "drizzle-orm": "^0.45.0",
+    "elysia": "1"
+  }
+}
